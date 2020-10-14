@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="asosiyPanel" prefHeight="493.0" prefWidth="661.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DarsController">
+   <children>
+      <JFXToolbar fx:id="tepaQism" layoutY="-3.0" prefHeight="52.0" prefWidth="661.0" style="-fx-background-color: #64B5F6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <Label contentDisplay="CENTER" prefHeight="36.0" prefWidth="266.0" text="    Grammatika darslari" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Label>
+         </center>
+         <left>
+            <JFXHamburger fx:id="hamb" prefHeight="52.0" prefWidth="57.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <JFXButton fx:id="yordam" prefHeight="51.0" prefWidth="52.0" text="  " BorderPane.alignment="CENTER">
+               <graphic>
+                  <FontAwesomeIconView fill="#161703" glyphName="QUESTION_CIRCLE" size="27" wrappingWidth="12.0" />
+               </graphic>
+            </JFXButton>
+         </right>
+      </JFXToolbar>
+      <JFXButton fx:id="bir" alignment="TOP_LEFT" buttonType="RAISED" layoutX="14.0" layoutY="68.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    1 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="ikki" alignment="TOP_LEFT" buttonType="RAISED" layoutX="14.0" layoutY="136.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    2 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="besh" alignment="TOP_LEFT" buttonType="RAISED" layoutX="14.0" layoutY="348.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    5 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="olti" alignment="TOP_LEFT" buttonType="RAISED" layoutX="14.0" layoutY="417.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    6 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="uch" alignment="TOP_LEFT" buttonType="RAISED" layoutX="14.0" layoutY="207.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    3 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="turt" alignment="TOP_LEFT" buttonType="RAISED" layoutX="14.0" layoutY="279.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    4 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="yetti" alignment="TOP_LEFT" buttonType="RAISED" layoutX="360.0" layoutY="68.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    7 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="sakkiz" alignment="TOP_LEFT" buttonType="RAISED" layoutX="360.0" layoutY="136.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    8 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="tuqqiz" alignment="TOP_LEFT" buttonType="RAISED" layoutX="360.0" layoutY="207.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    9 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="un" alignment="TOP_LEFT" buttonType="RAISED" layoutX="360.0" layoutY="279.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    10 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="unbir" alignment="TOP_LEFT" buttonType="RAISED" layoutX="360.0" layoutY="348.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    11 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="unikki" alignment="TOP_LEFT" buttonType="RAISED" layoutX="360.0" layoutY="417.0" onAction="#hodisacha" prefHeight="54.0" prefWidth="287.0" ripplerFill="#d5f506" style="-fx-background-color: #40DBBF;" text="    12 - Dars">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="30" wrappingWidth="21.0" />
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXRippler?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="asosiyAnchor" prefHeight="493.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SuzRoyhatController">
+   <children>
+      <JFXToolbar layoutY="-1.0" prefHeight="38.0" prefWidth="661.0" style="-fx-background-color: #64B5F6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <Label fx:id="sarlavha" alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="232.0" text="matn kiritiladi" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Times New Roman Bold" size="35.0" />
+               </font>
+            </Label>
+         </center>
+         <left>
+            <JFXHamburger fx:id="drawer_ochish" cache="true" prefHeight="38.0" prefWidth="41.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXRippler prefHeight="0.0" prefWidth="0.0" />
+               </children>
+            </JFXHamburger>
+         </left>
+      </JFXToolbar>
+      <JFXListView fx:id="list" layoutX="6.0" layoutY="75.0" prefHeight="412.0" prefWidth="650.0" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="75.0" />
+      <JFXTabPane fx:id="tabPane" layoutX="-2.0" layoutY="41.0" prefHeight="38.0" prefWidth="661.0" rotateGraphic="true" side="LEFT" tabMinHeight="100.0" tabMinWidth="40.0" />
+      <JFXRadioButton fx:id="uzbek" layoutX="150.0" layoutY="45.0" text="O'zbekcha" textFill="#4c0ce1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="rus" layoutX="350.0" layoutY="45.0" text="Русский" textFill="#4c0ce1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXRadioButton>
+   </children>
+</AnchorPane>

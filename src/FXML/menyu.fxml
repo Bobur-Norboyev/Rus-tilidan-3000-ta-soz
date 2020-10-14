@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="201.0" stylesheets="@../Css/menyu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="143.0" fitWidth="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/drawer_photo.png" />
+         </image>
+      </ImageView>
+      <JFXButton accessibleText="Uchming" buttonType="RAISED" prefHeight="50.0" prefWidth="201.0" text="    3000 ta so'z            ">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="LIST_UL" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Dars" buttonType="RAISED" layoutX="10.0" layoutY="153.0" prefHeight="50.0" prefWidth="201.0" text="  Grammatika darslari">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="FILE_TEXT" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Izlash" buttonType="RAISED" layoutX="10.0" layoutY="203.0" prefHeight="50.0" prefWidth="201.0" text="     Izlash                     ">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="SEARCH" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Tanlanganlar" buttonType="RAISED" layoutX="10.0" layoutY="253.0" prefHeight="50.0" prefWidth="201.0" text="    Test                        ">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="MORTAR_BOARD" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Yordam" buttonType="RAISED" layoutX="10.0" layoutY="303.0" prefHeight="50.0" prefWidth="201.0" text="      Yordam                 ">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="QUESTION_CIRCLE" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Haqida" buttonType="RAISED" layoutX="10.0" layoutY="353.0" prefHeight="56.0" prefWidth="201.0" text="     Dastur haqida       ">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="INFO_CIRCLE" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Chiqish" buttonType="RAISED" layoutX="10.0" layoutY="403.0" prefHeight="54.0" prefWidth="201.0" text="     Chiqish                  ">
+         <graphic>
+            <FontAwesomeIconView fill="#64b5ff" glyphName="ARROW_CIRCLE_LEFT" size="25" />
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</VBox>

@@ -1,0 +1,17 @@
+﻿KISHILIK OLMOSHLARI
+
+Rus tilida kishilik olmoshlari bilan tanishib chiqamiz. Ular - я, ты, он, она, оно, мы, вы, они 
+ 
+Birlikda: 
+ 
+1-shaxsda - я 
+2-shaxsda - ты 
+3-shaxsda - он, она, оно 
+ 
+Ko‘plikda: 
+ 
+1-shaxsda - мы 
+2-shaxsda - вы 
+3-shaxsda - они 
+ 
+Rus tilida [ты] deb bolalarga, oila a’zolariga yoki yaqin do‘stlarga nisbatan aytiladi. [вы] deb esa yoki ko‘plikda yoki biror insonga nisbatan hurmat bajo keltirilganda ishlatiladi.

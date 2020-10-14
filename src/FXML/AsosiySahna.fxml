@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="asosiyPanel" prefHeight="493.0" prefWidth="661.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AsosiySahnaController">
+   <children>
+      <JFXToolbar fx:id="tepaQism" layoutY="-3.0" prefHeight="52.0" prefWidth="661.0" style="-fx-background-color: #64B5F6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <Label contentDisplay="CENTER" prefHeight="36.0" prefWidth="266.0" text="     Rus tilidan 3000 ta so'z" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Label>
+         </center>
+         <right>
+            <JFXHamburger fx:id="tugmacha" prefHeight="52.0" prefWidth="51.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding></JFXHamburger>
+         </right>
+      </JFXToolbar>
+      <JFXListView fx:id="bolimlar" layoutX="78.0" layoutY="133.0" prefHeight="346.0" prefWidth="516.0" verticalGap="20.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="133.0">
+         <cursor>
+           
+         </cursor></JFXListView>
+      <JFXDrawer fx:id="tortma" defaultDrawerSize="200.0" prefHeight="493.0" prefWidth="201.0" />
+   </children>
+</AnchorPane>
